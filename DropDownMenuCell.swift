@@ -64,12 +64,6 @@ open class DropDownMenuCell : UITableViewCell {
 				customView.center.x = bounds.width / 2
 			}
 			customView.center.y =  bounds.height / 2
-			
-			let margin: CGFloat = 5 // imageView?.frame.origin.x ?? 15
-			
-			if customView.frame.maxX + margin > bounds.width {
-				customView.frame.size.width = bounds.width - customView.frame.origin.x - margin
-			}
 		}
 	}
 }
