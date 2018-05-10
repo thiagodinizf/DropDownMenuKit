@@ -118,6 +118,7 @@ open class DropDownMenu : UIView, UITableViewDataSource, UITableViewDelegate, UI
 		menuView.bounces = false
 		menuView.showsVerticalScrollIndicator = true
 		menuView.showsHorizontalScrollIndicator = false
+        menuView.separatorStyle = UITableViewCellSeparatorStyle.none
 
 		contentView.addSubview(menuView)
 
